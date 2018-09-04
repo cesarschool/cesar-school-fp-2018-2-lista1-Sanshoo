@@ -1,3 +1,7 @@
+﻿Tomás Gueiros Souza Manzi
+tgsm@cesar.school
+Introdução a Programação 2018.2
+-----------------------------------------------------------------------------------------------------------
 # Lista de Exercícios 1
 
 ===>>> Entrega: Até às 23h59 da Quarta-Feira, 05 de Setembro de 2018 <<<===
