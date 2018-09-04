@@ -13,8 +13,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 5")
-
+    print("esse programa calcula a redução do tempo de vida de um fumante, baseado na quantidade de cigarros consumidos")
+    qdia = int(input("digite a quantidade de cigarros fumados por dia "))
+    qano = int(input("digite a quantidade de anos que ele passou fumando "))
+    tempo_perdido = int((((qdia*10)*(qano*365))/60)/24)
+    print("o tempo de vida perdido pelo fumante é de " + str(tempo_perdido) + " dias.")
 
     
 if __name__ == '__main__':

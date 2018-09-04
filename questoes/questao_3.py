@@ -11,8 +11,13 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
-
+    import math
+    print("esse programa calcula a área, o diâmetro e o comprimento de uma circunferência a partir de seu raio.")
+    raio = float(input("digite o raio da circunferência desejada "))
+    area =  math.pi*(raio**2)
+    comprimento = math.pi*2*raio
+    diametro = raio*2
+    print("a área desse círculo é " + str(area) + ", o diâmetro é " + str(diametro) + " e o comprimento da circunferência é " + str(comprimento) + ". Tenha um ótimo dia ^^")  
 
     
 if __name__ == '__main__':
